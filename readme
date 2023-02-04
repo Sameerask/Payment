@@ -1,0 +1,58 @@
+######################################################################
+REST
+REST API and JSON
+Creating a RESTful Application 
+
+
+#REST is an acronym for Representational State Transfer 
+
+#The key abstraction of information in REST is a resource (Any object/instances that are created as model can be treated as resources)
+#A REST resource can be 
+   a document or an image 
+   a temporal service
+   collection of other resources 
+   any non virtual object
+   
+   The State of the resource at any particular time is known as resource representation
+   
+   resource representation consists of 
+   data 
+   metadata
+   hypermedia links that can help the cleints in transition to next desired state
+   
+   
+   #A REST API consists of assembly of interlinked resources.
+   These set of resources are known as REST API Resource model
+   
+   
+   @RestController annotation is a combination of @Controller and @ResponseBody
+   
+   
+   annotations for rest controller
+   
+   @GetMapping 
+   @PostMapping
+   @PutMapping
+   @DeleteMapping
+   @PatchMapping
+   
+   
+   
+   
+   
+   
+   ContextLoaderListener 
+   #It is an essential component of SpringMVC framework
+   #It is used to load root context ,and responsible for loading beans that can be shared between multiple dispatcher servlets
+   
+   
+   #SessionFactory is available with hibernate and is responsible for creation of Session Objects.
+   #Session objects works the same as EntityManager object and provides methods to save ,delete ,update  and find objects 
+   from database
+   
+   #SessionFactory opensession function is used to create a new session object
+   
+   
+   
+   
+   
